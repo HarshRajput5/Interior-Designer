@@ -1,0 +1,87 @@
+/* Add your custom styles here */
+.container {
+    margin-top: 50px;
+}
+body{
+    background-color:aliceblue;
+}
+nav{
+    background-color: rgb(218, 214, 214);
+}
+.rounded-border{
+    border-radius: 10%;
+}
+
+a{
+    color: black;
+}
+
+.btn{
+    border-radius: 25px;
+    width: 90%;
+}
+
+.fab{
+    font-size: 30px;
+}
+
+.exemple{
+    width: 90%;
+    height: auto;
+    border-radius: 10%;
+}
+
+p{
+    font-size: 24px;
+}
+.text-section, .circle-section, .additional-text {
+    margin: 10px 0;
+  }
+  
+  .circular-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    justify-self: start;
+  }
+  .circle-section{
+    /* width: 70px; */
+    display: flex;
+    width: 70px;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30;
+}
+
+/* .circular-image{
+    border-radius: 50%;
+} */
+
+@media (max-width: 767px) {
+    .col-lg-6 {
+        width: 100%;
+        order: unset !important;
+        /* display: flex;
+    justify-content: center; */
+    }
+
+    img {
+        /* display: block; */
+        
+        display: flex;
+        margin: 0 auto;
+        /* Center the image horizontally */
+        max-width: 80%;
+        /* Adjust the maximum width of the image */
+        /* height: auto; */
+        /* order: -1; */
+        /* margin-bottom: 20px;
+        justify-content: center; */
+    }
+}
