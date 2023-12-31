@@ -11,6 +11,12 @@ nav{
 .rounded-border{
     border-radius: 10%;
 }
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
 
 a{
     color: black;
